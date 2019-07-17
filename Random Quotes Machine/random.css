@@ -1,0 +1,43 @@
+html {
+    background: url(images/pexels-photo-2248523.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.quoteMachine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.randomQuotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quoteResult {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 50px;
+    height: 150px;
+    width: 800px;
+    text-align: center;
+}
+
+.qouteButton {
+    background-color: transparent;
+    color: white;
+    margin: 20px;
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
