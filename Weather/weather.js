@@ -12,8 +12,8 @@ window.onload = function() {
     weatherSummary = getElement('weather-summary');
     button = getElement('getCoordsPosition');
     button.addEventListener('click', getPosition, false);
-}
-var 
+};
+
 
 function getPosition() {
     if(navigator.geolocation) {
